@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around; /*es para que se alinee parecido a un header*/
+    align-items: center; /*para que se alineen los elementos en el central */
+    /*NO SE LE ANADE MARGIN PORQUE SEPARARIA CON EL FONDO */
+    padding: 10px; /* es para que se separe de los elementos centrales */
+    height: 130px;
+    position: sticky ; /* que se siga abajo*/
+    top: 0;
+    z-index: 2;
+
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+    font-size: 25px;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #e56684;
+}
+header nav ul :hover{
+    background-color: #e56684;
+    color: white;
+}
+.reglaInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e56684;
+    color: white;
+}
+.bannerCentral{
+    display: flex;
+    align-content: center;
+    
+}
+.parrafo{
+    margin-top: 50px;
+    color: #e56684;
+    margin: 15px;
+    text-shadow: 2px 1px #b2edef;
+}
+
+.botonContactanos{
+        width: 180px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: #e56684;
+        margin: 30px;
+        display: flex;
+        align-items: center;
+      }
+.botonContactanos:hover {
+        background-color: gray;
+        color: white;
+      }
+.lineadeCategorias{
+    background-color: #e56684;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.ultimosProductos{
+    background-color: #b2edef;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+
+
+}
+.caja1, .caja2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+}
+.nosotrosIndex{
+    color: whitesmoke;
+    background-color: #ff8ca7;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+footer{
+    background-color: #e56684;
+    text-align: center;
+    color: #ffffff;
+}
+.damasZapatillas, .ninosZapatillas{
+    background-color: #b2edef;
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+    color: #e56684;
+    padding: 60px;
+    align-items: center;
+    font-size: 30px;
+    gap: 300px;
+
+}
+.grupoDamasZapatillas, .grupoNinosZapatillas{
+    display: flex;
+    justify-content: center;
+    background-color:#b2edef ;
+    gap: 20px;
+    padding: 15px;
+}
+.damasSandalias, .ninosSandalias{
+    background-color: #ffffff;
+    display: flex;
+    align-content: space-between;
+    text-align: center;
+    color: #e56684;
+    padding: 60px;
+    align-items: center;
+    font-size: 30px;
+    gap: 300px;
+
+}
+.grupoDamasSandalias, .grupoNinosSandalias{
+    display: flex;
+    justify-content: center;
+    background-color:#ffffff ;
+    gap: 20px;
+    padding: 15px;
+}
+.damasBotas, .ninosBotas{
+    background-color: #e56684;
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+    color: #ffffff;
+    padding: 60px;
+    align-items: center;
+    font-size: 30px;
+    gap: 300px;
+
+}
+.grupodamasBotas, .grupoNinosBotas{
+    display: flex;
+    justify-content: center;
+    background-color:#e56684 ;
+    gap: 20px;
+    padding: 15px;
+}
+.contactanosWhat{
+    color: #e56684;
+    text-align: center;
+}
+.nosotrosText{
+    background-color: #ff8ca7;
+    color: #ffffff;
+    display: flex;
+    align-content: space-around;
+    gap: 30px;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    
+}
+.madreFormulario{
+    background-color: #ffffff;
+    color: #e56684;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background-color: #b2edef;
+    font-size: 20px;
+}
+.botonContacto{
+    width: 160px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #e56684;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.item-fixed{ /*es como el boton de whatsapp de las esquinas*/
+    position: fixed;
+    margin: 15px;
+    bottom: 0;
+    right: 0;
+}
+
+
+
