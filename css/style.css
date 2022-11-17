@@ -13,9 +13,6 @@ header{
     /*NO SE LE ANADE MARGIN PORQUE SEPARARIA CON EL FONDO */
     padding: 10px; /* es para que se separe de los elementos centrales */
     
-    position: sticky ;
-    top: 0;
-    z-index: 2;
     
 }
 .nav-link{
