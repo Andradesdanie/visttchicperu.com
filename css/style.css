@@ -338,7 +338,10 @@ footer{
     .ninosBotas img{
         display: block;
     }
-
+    .nosotrosIndex img{
+        margin-top: 20px;
+        width: 50%;
+    }
 }
 
 
